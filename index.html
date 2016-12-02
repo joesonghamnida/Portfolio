@@ -10,35 +10,48 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
     <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+
+    <style type="text/css">
+        p {
+            font-size: 200%;
+        }
+    </style>
+
 </head>
 
 <body>
-    <nav class="white" role="navigation">
-        <div class="nav-wrapper container">
-            <a id="logo-container" href="#" class="brand-logo">JM</a>
-            <ul class="right hide-on-med-and-down">
-                <li><a href="#contact">Contact</a></li>
-                <li><a href="#skillset">Skillset</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="resume.pdf">Resume</a></li>
-            </ul>
+    <div class="navbar-fixed">
+        <nav class="white" role="navigation">
+            <div class="nav-wrapper container">
+                <a id="logo-container" href="#" class="brand-logo">JM</a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#skillset">Skillset</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="resume.pdf">Resume</a></li>
+                </ul>
 
-            <ul id="nav-mobile" class="side-nav">
-                <li><a href="#contact">Contact</a></li>
-                <li><a href="#skillset">Skillset</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="resume.pdf">Resume</a></li>
-            </ul>
-            <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
-        </div>
-    </nav>
+                <ul id="nav-mobile" class="side-nav">
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#skillset">Skillset</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="resume.pdf">Resume</a></li>
+                </ul>
+                <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+            </div>
+        </nav>
+    </div>
 
     <div id="index-banner" class="parallax-container no-pad-bot">
-                <h1 class="header center teal-text text-darken-2">Joe Morris</h1>
-                <br>
-                    <h3 class="row center col s12 black-text">Software Engineer</h3>
-                </div>
+        <h1 class="header center teal-text text-darken-2">Joe Morris</h1>
+        <br>
+        <h3 class="row center black-text">Software Engineer</h3>
+
+        <div class="container">
+            <div <class="center"><img style=" display: block; margin: auto; max-width:40%; max-height: 40%; border-radius: 50%;" src="headshot.jpg"></class>
             </div>
+        </div>
+    </div>
 
     <div class="section no-pad-bot">
         <div class="container">
@@ -53,89 +66,60 @@
         </div>
     </div>
 
-    <div id="index-banner" class="parallax-container">
-        <div class="section no-pad-bot">
-
+    <div id="skillset" style="min-height: 100px;" class="parallax-container valign-wrapper">
+        <div class="container">
+            <div class="row center">
+                <h2 class="header col s12 light">Skillset</h2>
+            </div>
         </div>
-        <div class="parallax"><img class="responsive-img" src="headshot.jpg" alt="headshot"></div>
+        <div class="parallax"><img src="macStock.jpeg" alt="Stock mac picture"></div>
     </div>
 
-
-    <div id="contact" class="container center-align">
+    <div class="container">
         <div class="section">
-            <div class="col s12 m4">
-                <div class="icon-block">
-                    <h2 class="center">Contact</h2>
-                    <div class="row col s12">
-                        <h5 class="black-text">301 525 5092</h5>
-                    </div>
-                    <div class="row col s12">
-                        <h5 class="black-text">joe.morris.dev [at] gmail</h5>
-                    </div>
-                    <div class="row col s12">
-                        <h5 class=""><a href="https://github.com/joesonghamnida">github : joesonghamnida</a></h5>
-                    </div>
-                    <div class="row col s12">
-                        <h5 class=""><a href="https://www.linkedin.com/in/joesonghamnid">linkedin : joesonghamnida</a></h5>
-                    </div>
+            <div class="row center">
+                <div class="col s12 m4">
+                    <h4 class="no-margin">Languages</h4>
+                    <p class="no-margin">Java</p>
+                    <p class="no-margin">Scala</p>
+                    <p class="no-margin">SQL</p>
+                    <p class="no-margin">Python</p>
+                </div>
+                <div class="col s12 m4">
+                    <h4 class="no-margin">Frameworks</h4>
+                    <p class="no-margin">Spark</p>
+                    <p class="no-margin">Spring</p>
+                    <p class="no-margin">Hibernate</p>
+                    <p class="no-margin">Play</p>
+                </div>
 
+                <div class="col s12 m4">
+                    <h4 class="no-margin">Technologies</h4>
+                    <p class="no-margin">Unix</p>
+                    <p class="no-margin">CLI</p>
+                    <p class="no-margin">Github</p>
+                    <p class="no-margin">UCD</p>
                 </div>
             </div>
+          </div>
+        </div>
 
-            <div id="skillset" class="parallax-container valign-wrapper">
-                <div class="section no-pad-bot">
-                    <div class="container">
-                        <div class="row center">
-                            <h2 class="header col s12 light">Skillset</h2>
-                        </div>
+            <div id="skillset" style="min-height: 100px;" class="parallax-container valign-wrapper">
+                <div class="container">
+                    <div class="row center">
+                        <h2 class="header col s12 light">Portfolio</h2>
                     </div>
                 </div>
-                <div class="parallax"><img src="cactus_flower.jpg" alt="Cactus flowers"></div>
+                <div class="parallax"><img src="chip.jpg" alt="Transistor chip"></div>
             </div>
-
-
-            <table class=" centered responsive-table black-text">
-                <thead class="highlight">
-                    <th data-field="id">Languages</th>
-                    <th data-field="name">Frameworks</th>
-                    <th data-field="price">Miscellaneous</th>
-                </thead>
-
-                <tbody>
-                    <tr>
-                        <td>Java</td>
-                        <td>Spark</td>
-                        <td>HTML / CSS</td>
-                    </tr>
-                    <tr>
-                        <td>Scala</td>
-                        <td>Spring</td>
-                        <td>CLI</td>
-                    </tr>
-                    <tr>
-                        <td>SQL</td>
-                        <td>Hibernate</td>
-                        <td>Unix</td>
-                    </tr>
-                    <tr>
-                        <td>Python</td>
-                        <td>Play</td>
-                        <td>Use Case Diagramming</td>
-                    </tr>
-                </tbody>
-            </table>
-            <hr>
-
-            <div id="portfolio" class="parallax-container valign-wrapper">
-                <div class="section no-pad-bot">
-                    <div class="container">
-                        <div class="row center">
-                            <h2 class="header col s12 light">Portfolio</h2>
-                        </div>
-                    </div>
+            <!--<div id="portfolio" style="min-height: 100px;" class="parallax-container valign-wrapper">
+            <div class="container">
+                <div class="row center">
+                    <h2 class="header col s12 black-text">Portfolio</h2>
                 </div>
-                <div class="parallax"><img src="bridge.jpg" alt="James Robertson Parkway bridge at night"></div>
             </div>
+        <div class="parallax"><img src="chip.jpg" alt="transistor"></div>
+    </div>-->
 
             <div class="container">
                 <div class="section">
@@ -152,14 +136,15 @@
                                 <div class="card-reveal">
                                     <span class="card-title grey-text text-darken-4">Pollz<i class="material-icons right">close</i></span>
                                     <p>This was a team-based capstone project for the Iron Yard that utilized Java, Spring, and Hibernate to create a website that would allow users to create, take, and view the results of polls. Administrative features were
-                                        also included.</p>
+                                        also included.
+                                    </p>
                                 </div>
                             </div>
                         </div>
                         <div class="col s12 m4">
                             <div class="card">
                                 <div class="card-image waves-effect waves-block waves-light">
-                                    <img class="activator" src="scalaTracker.png">
+                                    <img class="activator" src="pingpong2.png">
                                 </div>
                                 <div class="card-content">
                                     <span class="card-title activator grey-text text-darken-4">Ping Pong Tracker<i class="material-icons right">more_vert</i></span>
@@ -176,7 +161,7 @@
                         <div class="col s12 m4">
                             <div class="card">
                                 <div class="card-image waves-effect waves-block waves-light">
-                                    <img class="activator" src="ironGram.png">
+                                    <img class="activator" src="ig2.png">
                                 </div>
                                 <div class="card-content">
                                     <span class="card-title activator grey-text text-darken-4">Iron Gram<i class="material-icons right">more_vert</i></span>
@@ -238,28 +223,55 @@
                         </div>
                     </div>
                 </div>
+              </div>
+
 
                 <div>
-                    <h5 class="header col s12 black-text"><a href="resume.pdf">Resume</a></h5>
+                    <hr>
+                    <h2 class="center-align header col s12 black-text"><a href="resume.pdf">Resume</a></h2>
                     <br>
                 </div>
+
                 <hr>
-                <div class="footer-copyright">
-                    <div class="container center">
-                        <div class="center black-text">
-                            joe.morris.dev [at] gmail / 301 525 5092
+
+                <div id="contact" class="container center-align">
+                    <div class="section">
+                        <div class="col s12 m4">
+                            <div class="icon-block">
+                                <h2 class="center">Contact</h2>
+                                <div class="row col s12">
+                                    <h5 class="black-text">301 525 5092</h5>
+                                </div>
+                                <div class="row col s12">
+                                    <h5 class="black-text">joe.morris.dev [at] gmail</h5>
+                                </div>
+                                <div class="row col s12">
+                                    <h5 class=""><a href="https://github.com/joesonghamnida">github : joesonghamnida</a></h5>
+                                </div>
+                                <div class="row col s12">
+                                    <h5 class=""><a href="https://www.linkedin.com/in/joesonghamnid">linkedin : joesonghamnida</a></h5>
+                                </div>
+
+                            </div>
                         </div>
 
-                        Made with <a class="brown-text text-lighten-3" href="http://materializecss.com">Materialize</a>
-                    </div>
-                </div>
-                </footer>
+                        <hr>
+                        <div class="footer-copyright">
+                            <div class="container center">
+                                <div class="center black-text">
+                                    joe.morris.dev [at] gmail / 301 525 5092
+                                </div>
+
+                                Made with <a class="brown-text text-lighten-3" href="http://materializecss.com">Materialize</a>
+                            </div>
+                        </div>
+                        </footer>
 
 
-                <!--  Scripts-->
-                <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-                <script src="js/materialize.js"></script>
-                <script src="js/init.js"></script>
+                        <!--  Scripts-->
+                        <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+                        <script src="js/materialize.js"></script>
+                        <script src="js/init.js"></script>
 
 </body>
 
